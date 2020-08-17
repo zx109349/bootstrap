@@ -1,0 +1,267 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+
+	
+}
+
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot');
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/iconfont.woff2') format('woff2'),
+		url('../fonts/iconfont.woff') format('woff'),
+		url('../fonts/iconfont.ttf') format('truetype'),
+		url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+/*  头部  */
+#sz_header {}
+
+#sz_header .top-bar {
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+#sz_header .top-bar .container .row>div+div {
+	border-left: 1px solid #E0E0E0;
+}
+
+#sz_header .top-bar .container .row .top-bar-1 a {
+	position: relative;
+}
+
+#sz_header .top-bar .container .row .top-bar-1 a img {
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -65px;
+	margin-top: -10px;
+	z-index: 9999;
+}
+
+#sz_header .top-bar .container .row .top-bar-1 a:hover img {
+	display: block;
+}
+
+.icon-shouji::before {
+	content: '\e958';
+	font-size: 13px;
+}
+
+.icon-telephone::before {
+	content: '\e942';
+	font-size: 13px;
+}
+
+/* 下部分 */
+#sz_header .sz_person {
+	text-decoration: none;
+}
+
+#sz_header #navbarNav ul li {
+	padding: 12px 0;
+	box-sizing: border-box;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(1):hover {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(2):hover {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(3):hover {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(4):hover {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(5):hover {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header #navbarNav ul li:nth-last-child(6) {
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header .sz_person:hover {
+	padding: 6px 0;
+	border-bottom: 2px solid #0AB4F7;
+}
+
+#sz_header .sz_nav {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+/* 头部 */
+
+
+
+/* 轮播图*/
+#sz_carousels .carousel-item img {
+	width: 100%;
+}
+#sz_carousels.carousel-item{
+	background: no-repeat center center;
+	-webkit-background-size:cover ;
+	background-size: cover;
+}
+@media screen and (min-width: 900px) {
+	#sz_carousels .carousel-item{
+		height: 410px;
+	}
+}
+
+/* 轮播图*/
+
+
+
+/*关于我们*/
+#sz_about {}
+
+/*关于我们*/
+
+
+/*产品特色*/
+#sz_product {
+	
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+
+
+#sz_product .pd-left{
+    padding: 40px 0;
+}
+
+#pd_one_1{
+    margin: 15px 0;
+}
+
+#pd_one_2{
+    background-color: transparent;
+}
+
+#pd_one_4{
+    margin: 15px 0;
+}
+#sz_product .lead li {
+	color: #ADADAD;
+	padding-left: 5px;
+}
+#sz_product .ls{
+		color: #9D9D9D;
+		font-size: 20px;
+}
+#sz_product .more{
+	padding-left: 350px;
+	display: inline;
+	display: flex;
+	align-self: center;
+}
+#sz_product #pd_two_1{
+    padding: 100px 0;
+}
+#sz_product #pd_two_1 h1{
+    margin-bottom: 15px;
+}
+
+/*产品特色*/
+
+
+/*热门课程 */
+#sz_hot {}
+#sz_hot .lesson{
+    padding: 15px 8px;
+}
+#sz_hot .lesson .media-left{
+    width: 20%;
+	
+}
+#sz_hot .lesson .media-left img{
+	border-radius: 50%;
+}
+#sz_hot .lesson .media-body{
+    width: 60%;
+    align-self: initial;
+}
+#sz_hot .lesson .media-right{
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+	align-self: flex-start;
+	margin-top: 30px;
+}
+/*热门课程 */
+
+/*友情链接*/
+#sz_link {}
+
+#sz_link .logos{
+    list-style: none;
+    text-align: center;
+}
+
+#sz_link .logos li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+/*友情链接*/
+
+/* 尾部 */
+#sz_footer {
+	width: 100%;
+	height: 200px;
+	background: url(../imgs/ft_bg.png) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+	
+}
+#sz_footer .first a{
+	color: #fff;	
+}
+#sz_footer .first,#sz_footer .second{
+	padding: 40px 0;
+	border-right: 1px solid #666;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+#sz_footer .first li{
+	line-height: 40px;
+}
+
+#sz_footer .third{
+	padding: 50px 50px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:flex-start;
+	
+	}
+	
+	#sz_footer .third a{
+		margin-right: 15px;
+		text-decoration: none;
+		
+	}
+/*尾部*/
